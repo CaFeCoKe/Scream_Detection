@@ -3,10 +3,10 @@
 
 ## 1. 사용 라이브러리
 1) 소리 데이터 예시 코드
-- Pandas, librosa
-- Numpy
-- sounddevice
-- matplotlib
+- Pandas, librosa : 소리 데이터 전처리
+- Numpy : 벡터 생성
+- sounddevice : 소리 재생
+- matplotlib : 소리 데이터 시각화
 
 2) 프로젝트 코드
 
