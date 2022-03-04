@@ -9,6 +9,11 @@
 - matplotlib : 소리 데이터 시각화
 
 2) 프로젝트 코드
+- Pandas
+- librosa
+- Numpy
+- Pytorch
+- Scikit-learn
 
 ## 2. 알고리즘 순서도
 
