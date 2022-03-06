@@ -28,6 +28,6 @@
 - [PyTorch 공식 설명](https://pytorch.org/docs/stable/index.html)
 - [Pandas 공식 설명](https://pandas.pydata.org/docs/reference/index.html)
 - [librosa 공식 설명](https://librosa.org/doc/latest/index.html)
-- [Base Code](https://github.com/bjpublic/DeepLearningProject)
+- [Base Code & data](https://github.com/bjpublic/DeepLearningProject)
 - [Mel-Spectrgram 설명](https://newsight.tistory.com/294)
 - [사이킷런 accuracy_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html#sklearn.metrics.accuracy_score) / [사이킷런 f1_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html#sklearn.metrics.f1_score)
