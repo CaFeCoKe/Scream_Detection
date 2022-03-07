@@ -22,6 +22,7 @@
 
 ## 4. 결과
 - 학습 진행 과정(Tensor 크기)
+
 ![train](https://user-images.githubusercontent.com/86700191/157013480-ec9b8a31-8e2f-4b7d-8281-ec21bf12acd0.PNG)
 
 ## 5. 유의점
