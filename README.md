@@ -1,5 +1,5 @@
 # Scream_Detection
- Using Pytorch-CNN
+소리 데이터를 이해하고, Frame processing, Feature extraction을 통해 네트워크에 입력할 데이터를 만든다. CNN을 이용해 학습하며, Binary Classification으로 비명소리인지 아닌지를 구분하게 된다.
 
 ## 1. 사용 라이브러리
 1) 소리 데이터 예시 코드
