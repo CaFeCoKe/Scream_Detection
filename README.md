@@ -21,9 +21,26 @@
 ## 3. 네트워크 구성도
 
 ## 4. 결과
+- 레이블과 파일 리스트 정리
+
+![label](https://user-images.githubusercontent.com/86700191/157155327-bb6f79cb-f9e3-460e-bce0-f71ab6617339.PNG)
+![list](https://user-images.githubusercontent.com/86700191/157155333-d63f4d61-3c33-4a08-8a2a-96d925005284.PNG)
+
+- Dataset 크기
+
+![dataset](https://user-images.githubusercontent.com/86700191/157155455-f239bf8c-9c73-4701-9ea3-8d65cbc54558.PNG)
+
 - 학습 진행 과정(Tensor 크기)
 
 ![train](https://user-images.githubusercontent.com/86700191/157013480-ec9b8a31-8e2f-4b7d-8281-ec21bf12acd0.PNG)
+
+- epoch 과정(95~100)
+
+![epoch](https://user-images.githubusercontent.com/86700191/157155669-88310d7c-33c8-4414-9e3e-920b4eb3149a.PNG)
+
+- Train, Validation 손실값 및 정확도
+
+![mat](https://user-images.githubusercontent.com/86700191/157155708-689a110d-bd8d-4881-9aa5-ca69cd8e1b47.PNG)
 
 ## 5. 유의점
 - 해당 코드는 Google Colab으로 다루었지만, 소리데이터를 직접 들으면서 작업하는데에는 무리가 있다. 클라우드 기반이기 때문에 소리를 출력하는 기본장치가 없는 것으로 보인다.
