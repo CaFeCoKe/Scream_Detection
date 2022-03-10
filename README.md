@@ -19,6 +19,7 @@
 ## 2. 알고리즘 순서도
 
 ## 3. 네트워크 구성도
+![detection](https://user-images.githubusercontent.com/86700191/157643069-3c3a71e5-31bc-4862-be1e-bde9611f4d0f.png)
 
 ## 4. 결과
 - 레이블과 파일 리스트 정리
