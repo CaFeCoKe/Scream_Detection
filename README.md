@@ -15,6 +15,12 @@
 - Pytorch : Dataset & DataLoader 생성, CNN 구성
 - Scikit-learn : 정확도, F1_score 사용
 - matplotlib : Overfitting/Underfitting 그래프 확인
+   
+2-1) 프로젝트 데모 실행코드
+- PyQT5, pyqtgraph
+- pyaudio
+- librosa
+- Pytorch
 
 ## 2. 알고리즘 순서도
 
@@ -55,4 +61,5 @@
 - [Mel-Spectrgram 설명](https://newsight.tistory.com/294)
 - [사이킷런 accuracy_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html#sklearn.metrics.accuracy_score) / [사이킷런 f1_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html#sklearn.metrics.f1_score)
 - [pyaudio API 문서](http://people.csail.mit.edu/hubert/pyaudio/docs/)
+- [pyqtgraph API 문서](https://pyqtgraph.readthedocs.io/en/latest/apireference.html)
 - [PyQT5 사용법](https://ybworld.tistory.com/10)
