@@ -54,3 +54,5 @@
 - [Base Code & data](https://github.com/bjpublic/DeepLearningProject)
 - [Mel-Spectrgram 설명](https://newsight.tistory.com/294)
 - [사이킷런 accuracy_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html#sklearn.metrics.accuracy_score) / [사이킷런 f1_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html#sklearn.metrics.f1_score)
+- [pyaudio API 문서](http://people.csail.mit.edu/hubert/pyaudio/docs/)
+- [PyQT5 사용법](https://ybworld.tistory.com/10)
