@@ -16,7 +16,7 @@
 - Scikit-learn : 정확도, F1_score 사용
 - matplotlib : Overfitting/Underfitting 그래프 확인
    
- 2-1) 프로젝트 데모 실행코드
+3) 프로젝트 데모 실행코드
 - PyQT5, pyqtgraph
 - pyaudio
 - librosa
