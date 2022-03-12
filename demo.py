@@ -151,6 +151,7 @@ class CNN_model(nn.Module):
 
 
 model_dir = './test.pth'
+
 model = CNN_model()
 model.load_state_dict(torch.load(model_dir, map_location ='cpu'))
 
