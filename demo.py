@@ -1,11 +1,18 @@
+import sys
 import numpy as np
-import pyqtgraph as pg
+
 import pyaudio
+
+import pyqtgraph as pg
 from PyQt5 import QtCore, uic
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
+
 import librosa
+
 import torch
+from torch import nn
+import torch.nn.functional as F
 
 SAMPLING_RATE = 22050  # 음성데이터의 샘플링 레이트
 CHUNK_SIZE = 22050  # 음성데이터를 불러올 때 한번에 22050개의 정수를 불러옴
@@ -102,3 +109,59 @@ class MyWindow(QMainWindow, form_class):
             x=x, height=[1 - y_softmax, y_softmax], width=1, brush=(159, 191, 229)
         )
         self.pw1.addItem(barchart)
+
+
+class CNN_model(nn.Module):
+    def __init__(self):
+        super(CNN_model, self).__init__()
+
+        # Convolution Layer
+        self.conv1 = nn.Conv2d(1, 32, (64, 1))
+        self.conv2 = nn.Conv2d(32, 64, (1, 9), stride=4)
+
+        # Nomalization Layer
+        self.batch1 = nn.BatchNorm2d(32)
+        self.batch2 = nn.BatchNorm2d(64)
+
+        # fully connected layer
+        self.fc1 = nn.Linear(64*1*9, 1)
+
+        # 활성화 함수 ReLU
+        self.relu = nn.ReLU()
+
+    def forward(self, x):
+
+        # Conv -> Nomalization -> ReLU -> Dropout
+        x = self.conv1(x)
+        x = self.batch1(x)
+        x = self.relu(x)
+        x = F.dropout2d(x, p=0.3, training=self.training)
+
+        # Conv -> Nomalization -> ReLU -> Dropout
+        x = self.conv2(x)
+        x = self.batch2(x)
+        x = self.relu(x)
+        x = F.dropout2d(x, p=0.3, training=self.training)
+
+        # Flatten -> Fully-connected
+        x = x.view(-1, 64*1*9)
+        x = self.fc1(x)
+
+        return x
+
+
+model_dir = './test.pth'
+model = CNN_model()
+model.load_state_dict(torch.load(model_dir, map_location ='cpu'))
+
+app = QApplication(sys.argv)
+myWindow = MyWindow(model=model)
+mic = MicrophoneRecorder(myWindow.read_collected)
+
+interval = SAMPLING_RATE / CHUNK_SIZE
+t = QtCore.QTimer()
+t.timeout.connect(mic.read)
+t.start(500)
+
+myWindow.show()
+app.exec_()

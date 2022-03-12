@@ -1,0 +1,44 @@
+0000000000000000000000000000000000000000 4c8f71c4d7b2b54fc3875e74a4395cb49daa9078 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1645361863 +0900	commit (initial): Initial commit
+4c8f71c4d7b2b54fc3875e74a4395cb49daa9078 c28a1987158aa0a2a109fe74309a029c04e2df22 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1645499839 +0900	commit: Prepare the files
+c28a1987158aa0a2a109fe74309a029c04e2df22 a7906aaafa05e07944a10cbe984a9ceb2813c885 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1645535279 +0900	pull --progress origin: Fast-forward
+a7906aaafa05e07944a10cbe984a9ceb2813c885 4034557f09f394b60e7ac0cd1a648a79850690d6 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1645535282 +0900	commit: Update README.md
+4034557f09f394b60e7ac0cd1a648a79850690d6 aa76941d816cb9553095f6363b50e2efb18622db CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1645537351 +0900	commit: Create Scream_Dectection.ipynb
+aa76941d816cb9553095f6363b50e2efb18622db 49e40c11612f46060992906000879e7c95d21ed7 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1645609564 +0900	commit: Write code for data loading and frame processing
+49e40c11612f46060992906000879e7c95d21ed7 a01231f63c1a46efdcc67502a48d0928877a1303 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1645613151 +0900	commit: Update README.md
+a01231f63c1a46efdcc67502a48d0928877a1303 33fdefcd8199f3167c5987775c6dfdf12aa2841e CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1645613248 +0900	commit: Update Comment
+33fdefcd8199f3167c5987775c6dfdf12aa2841e 649f6ee462041eaca1a49b5c3bdf931f71481515 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1645701201 +0900	commit: Add sound play code
+649f6ee462041eaca1a49b5c3bdf931f71481515 ffc772339d05fd1ec16870303377c70b07c853d9 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1645702365 +0900	commit: Make main project file
+ffc772339d05fd1ec16870303377c70b07c853d9 9af41e6e3987e7e101bf692bfaea4fa2ef5a885e CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1645704763 +0900	commit: Make example of sound data file
+9af41e6e3987e7e101bf692bfaea4fa2ef5a885e e4e11864fd5c665cc0de0369a60e31782ae2458d CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1645787415 +0900	commit: Make Mel spectrogram
+e4e11864fd5c665cc0de0369a60e31782ae2458d 27e479a60a491c4e4a2875dadd759be3f0a8a5ba CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1645789849 +0900	commit: Update README.md
+27e479a60a491c4e4a2875dadd759be3f0a8a5ba 812767a091158e155c88831becae12ba4324c7ca CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1645873335 +0900	commit: Update Example_sound_data.ipynb
+812767a091158e155c88831becae12ba4324c7ca 69e67bcb68a4dd1f5949afd5be151aab1a99d21e CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1645873444 +0900	commit: Create list of label data
+69e67bcb68a4dd1f5949afd5be151aab1a99d21e efe613b39465dbbb1745aab813af4bc89de2df58 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1645950239 +0900	commit: Load sound and label data
+efe613b39465dbbb1745aab813af4bc89de2df58 ee7e911bd206d6437ed4682c5ede411d60b44028 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1645951732 +0900	commit: Update README.md
+ee7e911bd206d6437ed4682c5ede411d60b44028 20f2c22be78f7c64e98c0099a38242096d4ffd1f CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1645952661 +0900	commit: Create function of frame processing
+20f2c22be78f7c64e98c0099a38242096d4ffd1f 23875a1c7aac1af9cdcf1a9d848f96aeee3e362a CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1646133440 +0900	commit: Write frame processing code
+23875a1c7aac1af9cdcf1a9d848f96aeee3e362a f28046c010be1bcad30db3a4f239185679e09398 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1646135493 +0900	commit: Write Mel spectrogram code
+f28046c010be1bcad30db3a4f239185679e09398 40f4848bbe2a10e9fbf9c1f030493f904507ac82 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1646214822 +0900	commit: Divided training and validation data
+40f4848bbe2a10e9fbf9c1f030493f904507ac82 1d14a1d4b3da3f0a9099d418fd382212775d8962 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1646219873 +0900	commit: Design CNN
+1d14a1d4b3da3f0a9099d418fd382212775d8962 40f4848bbe2a10e9fbf9c1f030493f904507ac82 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1646220018 +0900	reset: moving to 40f4848bbe2a10e9fbf9c1f030493f904507ac82
+40f4848bbe2a10e9fbf9c1f030493f904507ac82 baf2aeed0281cab23fc36813b2a2b95b7b40a169 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1646220026 +0900	commit: Design CNN
+baf2aeed0281cab23fc36813b2a2b95b7b40a169 3d92032287ac4a393abff13d83893e5380ed11af CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1646287270 +0900	commit: Create function to train the model
+3d92032287ac4a393abff13d83893e5380ed11af 299e5ef1d22d294de6de5a83a1c7f8d0c2fa7578 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1646309382 +0900	commit: Create function to validate the model
+299e5ef1d22d294de6de5a83a1c7f8d0c2fa7578 7c09a0e3828a8d436690bf6461d4a89b523e84a5 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1646311866 +0900	commit: Update README.md
+7c09a0e3828a8d436690bf6461d4a89b523e84a5 b469cf8c914c573af3b5a5646ebf32870be5690e CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1646311902 +0900	commit: Update README.md
+b469cf8c914c573af3b5a5646ebf32870be5690e 9db907f690b8e3c1fd1837c3ade1985ce9683fdd CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1646399805 +0900	commit: Update README.md
+9db907f690b8e3c1fd1837c3ade1985ce9683fdd f6abdf6e742a37db52cc0f51f2e5aced59aed6dd CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1646469337 +0900	commit: Run an epoch on the model
+f6abdf6e742a37db52cc0f51f2e5aced59aed6dd 4d2d7fd2231a092ff8532a8c9d3ab6887897ce01 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1646568245 +0900	commit: Update README.md
+4d2d7fd2231a092ff8532a8c9d3ab6887897ce01 eb01486c50022d09c8736121a4870173a4216c46 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1646574011 +0900	commit: Completed CNN model
+eb01486c50022d09c8736121a4870173a4216c46 9363deb6a4bc40736b811708bbb1f8a4f643a797 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1646647043 +0900	commit: Upload model file
+9363deb6a4bc40736b811708bbb1f8a4f643a797 26212aac7d883d0336f0ff2406f615e09e94e817 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1646648778 +0900	commit: Update README.md
+26212aac7d883d0336f0ff2406f615e09e94e817 e7c29e969210dd6c0c953d8051a8301a7041d394 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1646648823 +0900	commit: Update README.md
+e7c29e969210dd6c0c953d8051a8301a7041d394 5c8bf45a5cd8b013d257d417f631837c3b1e7601 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1646649151 +0900	commit: Update README.md
+5c8bf45a5cd8b013d257d417f631837c3b1e7601 251a7fead293fa1a7518536159f62ae0ad09785d CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1646707399 +0900	commit: Update README.md
+251a7fead293fa1a7518536159f62ae0ad09785d b2ec2c5a58e1b50725895bba6f476570a555e7e5 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1646908150 +0900	commit: Update README.md
+b2ec2c5a58e1b50725895bba6f476570a555e7e5 09a024e4b6687e399f79b6ad3157219c1f259d5b CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1646909160 +0900	commit: Prepare for demo
+09a024e4b6687e399f79b6ad3157219c1f259d5b 4e243b72cb2af7a779befe3a5dab7a930ed3aeaf CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1646912497 +0900	commit: Update README.md
+4e243b72cb2af7a779befe3a5dab7a930ed3aeaf 63e8b73330a72738fb2618de6f92b999e6dff6d7 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1646999093 +0900	commit: Update README.md
+63e8b73330a72738fb2618de6f92b999e6dff6d7 f5d7850c6e393c9335f68b64c7977eba3856b280 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1647003541 +0900	commit: Add comments
+f5d7850c6e393c9335f68b64c7977eba3856b280 881cf6a6e307f902f60e823ea6017cc7d1a76d47 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1647004701 +0900	commit: Update README.md
+881cf6a6e307f902f60e823ea6017cc7d1a76d47 fa22a4ee9ec82d5b6dbc5185bd9abfe470cfe103 CaFeCoKe <86700191+CaFeCoKe@users.noreply.github.com> 1647066844 +0900	pull --progress origin: Fast-forward
