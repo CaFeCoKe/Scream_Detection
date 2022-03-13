@@ -49,9 +49,19 @@
 
 ![mat](https://user-images.githubusercontent.com/86700191/157155708-689a110d-bd8d-4881-9aa5-ca69cd8e1b47.PNG)
 
+- 데모 실행 결과
+1) 비명이 아닌 소리 감지
+![non_detection](https://user-images.githubusercontent.com/86700191/158050638-a0ef77f2-9e99-4f00-9487-fb2a4ff48712.PNG)
+
+2) 비명 감지
+![detection](https://user-images.githubusercontent.com/86700191/158050639-8ca6785f-302b-4ebf-94ec-f965ee2f1a54.PNG)
+
 ## 5. 유의점
 - 해당 코드는 Google Colab으로 다루었지만, 소리데이터를 직접 들으면서 작업하는데에는 무리가 있다. 클라우드 기반이기 때문에 소리를 출력하는 기본장치가 없는 것으로 보인다.
+- 데모를 실행 하려고 Colab에서 하려고 하면 안된다. Colab에는 디스플레이를 해줄수 있는 qt 모듈이 없다.
 - 파일 리스트가 정리된 xlsx 파일의 시트를 보면 정리는 잘 되어있지만 레이블의 한글명은 자음과 모음이 분리되어 있는 것을 볼 수있다. 이것은 압축을 풀기 전과 풀고 난 후 파일명에 차이점이 있는데 영어명에서 한글명으로 바뀌는 파일이 존재하고 아마 이 부분에서 인코딩의 차이가 있는 것으로 보인다.
+- 만약 데모 실행시 librosa에 대해 permissionError: (Errno 13)가 뜨게 된다면 파이썬 라이브러리들이 깔려있는 폴더 경로로 가서 librosa에 대해 쓰기 권한을 부여해줘야 한다.
+![permission](https://user-images.githubusercontent.com/86700191/158050847-4bc01702-827b-42dd-a299-4a670cc1dc9e.PNG)
 
 ## 6. 참고자료(사이트)
 - [PyTorch 공식 설명](https://pytorch.org/docs/stable/index.html)
