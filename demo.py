@@ -153,16 +153,18 @@ class CNN_model(nn.Module):
 model_dir = './test.pth'
 
 model = CNN_model()
-model.load_state_dict(torch.load(model_dir, map_location ='cpu'))
+model.load_state_dict(torch.load(model_dir, map_location='cpu'))
 
 app = QApplication(sys.argv)
 myWindow = MyWindow(model=model)
 mic = MicrophoneRecorder(myWindow.read_collected)
 
+# 1초마다 마이크 입력 실행
 interval = SAMPLING_RATE / CHUNK_SIZE
 t = QtCore.QTimer()
+t.setInterval(interval)
 t.timeout.connect(mic.read)
-t.start(500)
+t.start()
 
 myWindow.show()
-app.exec_()
+sys.exit(app.exec_())
