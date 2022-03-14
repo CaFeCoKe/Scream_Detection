@@ -90,9 +90,12 @@ class MyWindow(QMainWindow, form_class):
     def update(self, chunk):
         x = np.arange(2)
 
+        # Mel_spcectrogram의 Tensor화
         feature_vector = feature_engineering_mel_spectrum(chunk, SAMPLING_RATE, 64)
         feature_vector = torch.tensor(feature_vector).float()
         feature_vector = feature_vector.squeeze(3).unsqueeze(1)
+        
+        # 모델에 Tensor 입력
         y_softmax = float(
             torch.sigmoid(self.model(feature_vector)).detach().numpy()
         )
